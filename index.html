@@ -1,11 +1,8 @@
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-
-
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
@@ -20,9 +17,17 @@
           <li class="nav-item">
             <a class="nav-link" href="#"><i class="fa d-inline fa-lg fa-bookmark-o"></i> Bookmarks</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa d-inline fa-lg fa-envelope-o"></i> Notifications</a>
+          <li class="nav-item">   
           </li>
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle"  type="button" data-toggle="dropdown"> <i id="updates" class="fa d-inline fa-lg fa-envelope-o"></i> Notifications
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li class="dropdown-header" id="notifyHeader">You have 0 updates.</li>
+              <hr>
+              <li id="notifyContent"></li>
+            </ul>
+          </div>
         </ul>
         <a class="btn navbar-btn btn-primary ml-2 text-white"><i class="fa d-inline fa-lg fa-user-circle-o"></i> Sign out</a>
       </div>
@@ -54,10 +59,8 @@
       </tbody>
   </table>
             <button class="btn btn-success" id=follow> Follow </button>
-          
-
             <div class="card-header collapsed card-link" data-toggle="collapse"    href="#collapseOne"> 
-                    
+                  
                    <span> About Me 
                        <i class="fa fa-chevron-down pull-right"></i>
                     </span>
@@ -100,20 +103,16 @@
    <img class="imageVacation rounded" alt="vacation photo" src="http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1502722460/hanauma-bay-nature-preserve-oahu-hawaii-HAWAIIFLIGHTDEAL0817.jpg?itok=5RHXufdE">
    <img class="imageVacation rounded" alt="vacation photo" src="http://www.hiddenchicvillas.com/wp-content/uploads/2016/04/hawaii-2.jpg">
    <img class="imageVacation rounded" alt="vacation photo" src="https://az760333.vo.msecnd.net/-/media/corporate/residences/destination-residences-hawaii/drhawaii_maui_secretbeach_ss.jpg?ts=eb5586dd-1372-47f8-817d-b947f68934f1">
-       
+
         </div>
   </div>
-      </div>
-      
-        </div>
-    
+      </div>      
+        </div>    
   <footer class="container-fluid">
         <p>© 2018 User Profile. All rights reserved.</p>
       </footer>
-      
   <script src="index.js"></script>
   <link rel="stylesheet" href="index.css">
-
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>

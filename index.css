@@ -7,13 +7,28 @@ body{
   color: #007bff;
 }
 
+.mystyle{
+    color: #ff0066;
+}
+
+#notifyHeader{
+    color:  #007bff;
+    font-size: 18px;
+    text-align: center;
+}
+
+#notifyContent{
+    font-size: 14px;
+    text-align: center;
+}
+
+
  .fa {
   transition: .2s transform ease-in-out;
 }
 
 .card-header{
-    background: #FFFFFF;
-   
+    background: #FFFFFF;   
 }
 
 span{
@@ -30,14 +45,12 @@ div.a {
 }
 
 
-
 .table{
   text-align: center;
 }
 
 h1, h2{
   text-align:center;
-
   margin-top:10px;
   margin-bottom:10px;
 }
@@ -50,20 +63,16 @@ h1, h2{
 }
 
 #followingTitle:before, #followingTitle:after{
-font-weight: 800;
-   
+    font-weight: 800;
     content: " - ";
     color:  #99ccff;
-    
 }
 
 
 #followTitle:before, #followTitle:after{
     font-weight: 800;
-       
         content: " - ";
         color:  #ff884d;
-        
     }
 
     .imageVacation{
@@ -80,7 +89,6 @@ font-weight: 800;
             float: left;
             margin: 1.66%;
         }
-     
       }
 
 

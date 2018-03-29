@@ -1,0 +1,15 @@
+{
+  "name": "Bootstrap4 User Profile",
+  "short_name": "User_B4",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A User Interface project using Bootstrap4",
+  "lang": "en-US",
+  "theme_color": "#007bff",
+    "icons": [{
+   "src": "images/UserProfile.png",
+   "sizes": "512x512",
+   "type": "image/png"
+ }]
+  }
